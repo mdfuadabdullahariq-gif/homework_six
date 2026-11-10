@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  padding: 40px 0;
+  background: #070708;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.logo a{
+  display: flex;
+  padding: 0 90px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.logo span {
+  color: #8b5cf6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-manu ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav-manu ul li a {
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.nav-manu ul li a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #8b5cf6;
+  content: "";
+  transition: 0.4s;
+}
+
+.nav-manu ul li a::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background: #8b5cf6;
+  content: "";
+  transition: 0.4s;
+}
+
+.nav-manu ul li a:hover::after {
+  width: 100%;
+}
+
+.nav-manu ul li a:hover::before {
+  width: 100%;
+}
+
+.nav-manu ul li a:hover {
+  color: #8b5cf6;
+}
+
+.banner{
+    padding: 0;
+    background: url(/img/software-development-costs-1128x635.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coverly{
+    background: rgba(0, 0, 0, 0.658);
+    padding: 405px 0;
+    
+}
