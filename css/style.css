@@ -41,6 +41,7 @@ a {
   text-transform: uppercase;
   transition: 0.4s;
   font-family: "Inter", sans-serif;
+  position: relative;
 }
 
 .nav-manu ul li a::after {
@@ -58,7 +59,7 @@ a {
   position: absolute;
   top: 0;
   right: 0;
-  width: 0;
+  width: 0%;
   height: 2px;
   background: #8b5cf6;
   content: "";
@@ -78,7 +79,7 @@ a {
 }
 
 .banner{
-    padding: 0;
+    padding: 405px 0;
     background: url(/img/software-development-costs-1128x635.jpg);
     background-position: center;
     background-repeat: no-repeat;
