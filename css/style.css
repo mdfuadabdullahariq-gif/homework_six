@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.body {
-  font-family: "Inter", sans-serif;
-}
-
 .header {
   padding: 40px 0;
   background: #070708;
@@ -44,6 +40,7 @@ a {
   font-size: 20px;
   text-transform: uppercase;
   transition: 0.4s;
+  font-family: "Inter", sans-serif;
 }
 
 .nav-manu ul li a::after {
